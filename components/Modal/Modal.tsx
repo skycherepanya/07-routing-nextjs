@@ -24,7 +24,7 @@ const Modal = ({ children, isOpen = true, onClose }: ModalProps) => {
   if (!isOpen) return null;
 
   return (
-    <div className={css.overlay} onClick={handleClose}>
+    <div className={css.backdrop} onClick={handleClose}>
       <div className={css.modal} onClick={(e) => e.stopPropagation()}>
         {children}
         <button type="button" className={css.closeButton} onClick={handleClose}>

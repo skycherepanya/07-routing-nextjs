@@ -26,6 +26,7 @@ const Pagination = ({
       activeClassName={css.active}
       nextLabel="→"
       previousLabel="←"
+      disabledClassName={css.disabled}
     />
   );
 };
