@@ -5,7 +5,7 @@ import {
 } from "@tanstack/react-query";
 import { fetchNotes } from "@/lib/api";
 import { NoteTag } from "@/types/note";
-import NotesClient from "@/components/NotesClient/NotesClient";
+import NotesClient from "./Notes.client";
 import css from "../../NotesPage.module.css";
 
 interface NotesFilterPageProps {

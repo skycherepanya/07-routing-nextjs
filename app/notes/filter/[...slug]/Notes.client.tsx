@@ -10,7 +10,7 @@ import Pagination from "@/components/Pagination/Pagination";
 import NoteList from "@/components/NoteList/NoteList";
 import Modal from "@/components/Modal/Modal";
 import NoteForm from "@/components/NoteForm/NoteForm";
-import css from "./NotesClient.module.css";
+import css from "./Notes.client.module.css";
 
 interface NotesClientProps {
   tag?: string;
